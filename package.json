@@ -1,0 +1,14 @@
+{
+  "name": "professional-vpn",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bash vpn.sh <vpn1|dcvpn1|rvpn1|vpn2|dcvpn2|rvpn2"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cisco-vpn": "^1.0.2",
+    "dotenv": "^10.0.0"
+  },
+  "author": "Mohamed Amine Ben Salah",
+  "license": "MIT"
+}
